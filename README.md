@@ -5,3 +5,5 @@
 本存储库包含中文时间信息规范化表示标注数据的样例以及schema，使用[Anafora](https://github.com/weitechen/anafora/) XML格式存储。数据集的详细情况参见论文*基于表达式的中文时间信息规范化表示语料库构建*。
 
 标注样例从全部标注数据中随机抽取了155篇（12.8%）文章，其中包含6.8万字（13.0%），1008个时间短语（12.0%）。目前文章正在评审中，待录用后会发布完整数据集。
+
+数据标注规范改进自Bethard和Parker的TimeNorm规范（*Bethard&Parker. A Semantically Compositional Annotation Scheme for Time Normalization. ELRA2016*），其标注的英文数据为[SCATE](https://github.com/bethard/anafora-annotations)。
