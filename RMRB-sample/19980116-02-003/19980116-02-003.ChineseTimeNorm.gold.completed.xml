@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <data><info><savetime>11:43:02 30-03-2023</savetime><progress>completed</progress></info><schema path="./" protocol="file">temporal.schema.xml</schema>
 
 <annotations><entity><id>1@e@19980116-02-003@preannotation</id><span>29,31</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Included</Semantics><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval /><Nth /></properties></entity><entity><id>2@e@19980116-02-003@autofix</id><span>29,31</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>1@e@19980116-02-003@preannotation</Entity></properties></entity></annotations></data>
