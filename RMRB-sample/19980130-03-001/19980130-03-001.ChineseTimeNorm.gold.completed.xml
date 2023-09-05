@@ -1,4 +1,987 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<data><info><savetime>22:58:18 01-04-2023</savetime><progress>completed</progress></info><schema path="./" protocol="file">temporal.schema.xml</schema>
 
-<annotations><entity><id>100@e@19980130-03-001@autofix</id><span>1176,1179</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>73@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>101@e@19980130-03-001@autofix</id><span>1451,1458</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>75@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>102@e@19980130-03-001@autofix</id><span>1679,1687</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>77@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>103@e@19980130-03-001@autofix</id><span>777,779</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>7@e@19980130-03-001@preannotation</Entity></properties></entity><entity><id>104@e@19980130-03-001@ksbackup</id><span>500,535</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>45@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>105@e@19980130-03-001@ksbackup</id><span>626,629</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>47@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>106@e@19980130-03-001@ksbackup</id><span>696,698</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>51@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>107@e@19980130-03-001@ksbackup</id><span>798,803</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>54@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>108@e@19980130-03-001@ksbackup</id><span>852,864</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>58@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>1@e@19980130-03-001@preannotation</id><span>1679,1681</span><type>Calendar-Interval</type><parentsType>Repeating-Interval</parentsType><properties><Type>Year</Type><Number /><Modifier /></properties></entity><entity><id>26@e@19980130-03-001@ksbackup</id><span>39,41</span><type>Months</type><parentsType>Repeating-Interval</parentsType><properties><Type>January</Type><Number /><Modifier /></properties></entity><entity><id>27@e@19980130-03-001@ksbackup</id><span>41,44</span><type>Day-Of-Month</type><parentsType>Interval</parentsType><properties><Value>28</Value><Super-Interval>26@e@19980130-03-001@ksbackup</Super-Interval><Modifier /></properties></entity><entity><id>28@e@19980130-03-001@ksbackup</id><span>41,44</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval>27@e@19980130-03-001@ksbackup</Repeating-Interval><Nth>1</Nth></properties></entity><entity><id>29@e@19980130-03-001@ksbackup</id><span>62,65</span><type>Days-Of-Month</type><parentsType>Repeating-Interval</parentsType><properties><Value>28</Value><Number /><Modifier /></properties></entity><entity><id>2@e@19980130-03-001@preannotation</id><span>1679,1681</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval>1@e@19980130-03-001@preannotation</Repeating-Interval><Nth>1</Nth></properties></entity><entity><id>31@e@19980130-03-001@ksbackup</id><span>65,66</span><type>Part-Of-Day</type><parentsType>Interval</parentsType><properties><Type>Evening</Type><Super-Interval>29@e@19980130-03-001@ksbackup</Super-Interval><Modifier /></properties></entity><entity><id>32@e@19980130-03-001@ksbackup</id><span>65,66</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval>31@e@19980130-03-001@ksbackup</Repeating-Interval><Nth>1</Nth></properties></entity><entity><id>33@e@19980130-03-001@ksbackup</id><span>131,133</span><type>Time-Anchor</type><parentsType>Other</parentsType><properties><Modifier /></properties></entity><entity><id>34@e@19980130-03-001@ksbackup</id><span>162,164</span><type>Next</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>Link</Interval-Type><Interval>33@e@19980130-03-001@ksbackup</Interval><Period /><Repeating-Interval /><Nth /></properties></entity><entity><id>35@e@19980130-03-001@ksbackup</id><span>75,77</span><type>Time-Anchor</type><parentsType>Other</parentsType><properties><Modifier /></properties></entity><entity><id>36@e@19980130-03-001@ksbackup</id><span>303,307</span><type>Copy</type><parentsType>Operator</parentsType><properties><Interval-Type>Link</Interval-Type><Interval>35@e@19980130-03-001@ksbackup</Interval></properties></entity><entity><id>37@e@19980130-03-001@ksbackup</id><span>433,436</span><type>Days-Of-Month</type><parentsType>Repeating-Interval</parentsType><properties><Value>28</Value><Number /><Modifier /></properties></entity><entity><id>38@e@19980130-03-001@ksbackup</id><span>433,436</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval>37@e@19980130-03-001@ksbackup</Repeating-Interval><Nth>1</Nth></properties></entity><entity><id>39@e@19980130-03-001@ksbackup</id><span>546,549</span><type>Days-Of-Month</type><parentsType>Repeating-Interval</parentsType><properties><Value>28</Value><Number /><Modifier /></properties></entity><entity><id>3@e@19980130-03-001@preannotation</id><span>1558,1560</span><type>Copy</type><parentsType>Operator</parentsType><properties><Interval-Type>DocTime</Interval-Type><Interval /></properties></entity><entity><id>40@e@19980130-03-001@ksbackup</id><span>546,549</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval>39@e@19980130-03-001@ksbackup</Repeating-Interval><Nth>1</Nth></properties></entity><entity><id>41@e@19980130-03-001@ksbackup</id><span>494,496</span><type>Months</type><parentsType>Repeating-Interval</parentsType><properties><Type>January</Type><Number /><Modifier /></properties></entity><entity><id>42@e@19980130-03-001@ksbackup</id><span>496,499</span><type>Day-Of-Month</type><parentsType>Interval</parentsType><properties><Value>28</Value><Super-Interval>41@e@19980130-03-001@ksbackup</Super-Interval><Modifier /></properties></entity><entity><id>43@e@19980130-03-001@ksbackup</id><span>496,499</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval>42@e@19980130-03-001@ksbackup</Repeating-Interval><Nth>1</Nth></properties></entity><entity><id>44@e@19980130-03-001@ksbackup</id><span>527,529</span><type>Time-Anchor</type><parentsType>Other</parentsType><properties><Modifier /></properties></entity><entity><id>45@e@19980130-03-001@ksbackup</id><span>533,535</span><type>Copy</type><parentsType>Operator</parentsType><properties><Interval-Type>Link</Interval-Type><Interval>44@e@19980130-03-001@ksbackup</Interval></properties></entity><entity><id>46@e@19980130-03-001@ksbackup</id><span>626,628</span><type>Time-Anchor</type><parentsType>Other</parentsType><properties><Modifier /></properties></entity><entity><id>47@e@19980130-03-001@ksbackup</id><span>628,629</span><type>Next</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>Link</Interval-Type><Interval>46@e@19980130-03-001@ksbackup</Interval><Period /><Repeating-Interval /><Nth /></properties></entity><entity><id>48@e@19980130-03-001@ksbackup</id><span>685,687</span><type>Time-Anchor</type><parentsType>Other</parentsType><properties><Modifier /></properties></entity><entity><id>49@e@19980130-03-001@ksbackup</id><span>687,688</span><type>Next</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>Link</Interval-Type><Interval>48@e@19980130-03-001@ksbackup</Interval><Period /><Repeating-Interval /><Nth /></properties></entity><entity><id>50@e@19980130-03-001@ksbackup</id><span>690,692</span><type>Time-Anchor</type><parentsType>Other</parentsType><properties><Modifier /></properties></entity><entity><id>51@e@19980130-03-001@ksbackup</id><span>696,698</span><type>Copy</type><parentsType>Operator</parentsType><properties><Interval-Type>Link</Interval-Type><Interval>50@e@19980130-03-001@ksbackup</Interval></properties></entity><entity><id>52@e@19980130-03-001@ksbackup</id><span>798,800</span><type>Calendar-Interval</type><parentsType>Repeating-Interval</parentsType><properties><Type>Month</Type><Number /><Modifier /></properties></entity><entity><id>53@e@19980130-03-001@ksbackup</id><span>798,800</span><type>This</type><parentsType>Operator</parentsType><properties><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval>52@e@19980130-03-001@ksbackup</Repeating-Interval><Modifier /></properties></entity><entity><id>54@e@19980130-03-001@ksbackup</id><span>800,803</span><type>Day-Of-Month</type><parentsType>Interval</parentsType><properties><Value>27</Value><Super-Interval>53@e@19980130-03-001@ksbackup</Super-Interval><Modifier /></properties></entity><entity><id>55@e@19980130-03-001@ksbackup</id><span>852,855</span><type>Days-Of-Month</type><parentsType>Repeating-Interval</parentsType><properties><Value>28</Value><Number /><Modifier /></properties></entity><entity><id>56@e@19980130-03-001@ksbackup</id><span>852,855</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval>55@e@19980130-03-001@ksbackup</Repeating-Interval><Nth>1</Nth></properties></entity><entity><id>57@e@19980130-03-001@ksbackup</id><span>855,857</span><type>Time-Anchor</type><parentsType>Other</parentsType><properties><Modifier /></properties></entity><entity><id>58@e@19980130-03-001@ksbackup</id><span>862,864</span><type>After</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>Link</Interval-Type><Interval>57@e@19980130-03-001@ksbackup</Interval><Period /><Repeating-Interval /></properties></entity><entity><id>59@e@19980130-03-001@ksbackup</id><span>888,890</span><type>Time-Anchor</type><parentsType>Other</parentsType><properties><Modifier /></properties></entity><entity><id>5@e@19980130-03-001@preannotation</id><span>1086,1088</span><type>Copy</type><parentsType>Operator</parentsType><properties><Interval-Type>DocTime</Interval-Type><Interval /></properties></entity><entity><id>60@e@19980130-03-001@ksbackup</id><span>890,891</span><type>After</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>Link</Interval-Type><Interval>59@e@19980130-03-001@ksbackup</Interval><Period /><Repeating-Interval /></properties></entity><entity><id>61@e@19980130-03-001@ksbackup</id><span>1018,1021</span><type>Months</type><parentsType>Repeating-Interval</parentsType><properties><Type>April</Type><Number /><Modifier /></properties></entity><entity><id>62@e@19980130-03-001@ksbackup</id><span>1018,1021</span><type>Next</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>Link</Interval-Type><Interval /><Period /><Repeating-Interval>61@e@19980130-03-001@ksbackup</Repeating-Interval><Nth>1</Nth></properties></entity><entity><id>63@e@19980130-03-001@ksbackup</id><span>1144,1146</span><type>Months</type><parentsType>Repeating-Interval</parentsType><properties><Type>January</Type><Number /><Modifier /></properties></entity><entity><id>64@e@19980130-03-001@ksbackup</id><span>1365,1367</span><type>Months</type><parentsType>Repeating-Interval</parentsType><properties><Type>January</Type><Number /><Modifier /></properties></entity><entity><id>65@e@19980130-03-001@ksbackup</id><span>1146,1149</span><type>Day-Of-Month</type><parentsType>Interval</parentsType><properties><Value>28</Value><Super-Interval>63@e@19980130-03-001@ksbackup</Super-Interval><Modifier /></properties></entity><entity><id>66@e@19980130-03-001@ksbackup</id><span>1367,1370</span><type>Day-Of-Month</type><parentsType>Interval</parentsType><properties><Value>28</Value><Super-Interval>64@e@19980130-03-001@ksbackup</Super-Interval><Modifier /></properties></entity><entity><id>67@e@19980130-03-001@ksbackup</id><span>1146,1149</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval>65@e@19980130-03-001@ksbackup</Repeating-Interval><Nth>1</Nth></properties></entity><entity><id>68@e@19980130-03-001@ksbackup</id><span>1367,1370</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval>66@e@19980130-03-001@ksbackup</Repeating-Interval><Nth>1</Nth></properties></entity><entity><id>69@e@19980130-03-001@ksbackup</id><span>1386,1389</span><type>Days-Of-Month</type><parentsType>Repeating-Interval</parentsType><properties><Value>28</Value><Number /><Modifier /></properties></entity><entity><id>6@e@19980130-03-001@preannotation</id><span>1299,1301</span><type>Copy</type><parentsType>Operator</parentsType><properties><Interval-Type>DocTime</Interval-Type><Interval /></properties></entity><entity><id>70@e@19980130-03-001@ksbackup</id><span>1389,1390</span><type>Part-Of-Day</type><parentsType>Interval</parentsType><properties><Type>Evening</Type><Super-Interval>69@e@19980130-03-001@ksbackup</Super-Interval><Modifier /></properties></entity><entity><id>71@e@19980130-03-001@ksbackup</id><span>1389,1390</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval>70@e@19980130-03-001@ksbackup</Repeating-Interval><Nth>1</Nth></properties></entity><entity><id>72@e@19980130-03-001@ksbackup</id><span>1176,1179</span><type>Days-Of-Month</type><parentsType>Repeating-Interval</parentsType><properties><Value>28</Value><Number /><Modifier /></properties></entity><entity><id>73@e@19980130-03-001@ksbackup</id><span>1176,1179</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval>72@e@19980130-03-001@ksbackup</Repeating-Interval><Nth>1</Nth></properties></entity><entity><id>74@e@19980130-03-001@ksbackup</id><span>1452,1457</span><type>Time-Anchor</type><parentsType>Other</parentsType><properties><Modifier /></properties></entity><entity><id>75@e@19980130-03-001@ksbackup</id><span>1457,1458</span><type>Copy</type><parentsType>Operator</parentsType><properties><Interval-Type>Link</Interval-Type><Interval>74@e@19980130-03-001@ksbackup</Interval></properties></entity><entity><id>76@e@19980130-03-001@ksbackup</id><span>1681,1684</span><type>Month-Of-Year</type><parentsType>Interval</parentsType><properties><Type>November</Type><Super-Interval>2@e@19980130-03-001@preannotation</Super-Interval><Modifier /></properties></entity><entity><id>77@e@19980130-03-001@ksbackup</id><span>1684,1687</span><type>Day-Of-Month</type><parentsType>Interval</parentsType><properties><Value>20</Value><Super-Interval>76@e@19980130-03-001@ksbackup</Super-Interval><Modifier /></properties></entity><entity><id>78@e@19980130-03-001@autofix</id><span>36,44</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>28@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>79@e@19980130-03-001@autofix</id><span>62,66</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>32@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>7@e@19980130-03-001@preannotation</id><span>777,779</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Included</Semantics><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval /><Nth /></properties></entity><entity><id>80@e@19980130-03-001@autofix</id><span>162,164</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>34@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>81@e@19980130-03-001@autofix</id><span>303,307</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>36@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>82@e@19980130-03-001@autofix</id><span>433,436</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>38@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>83@e@19980130-03-001@autofix</id><span>1558,1560</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>3@e@19980130-03-001@preannotation</Entity></properties></entity><entity><id>84@e@19980130-03-001@autofix</id><span>546,549</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>40@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>85@e@19980130-03-001@autofix</id><span>492,499</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>43@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>88@e@19980130-03-001@autofix</id><span>684,688</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>49@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>91@e@19980130-03-001@autofix</id><span>852,855</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>56@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>93@e@19980130-03-001@autofix</id><span>1086,1088</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>5@e@19980130-03-001@preannotation</Entity></properties></entity><entity><id>94@e@19980130-03-001@autofix</id><span>881,891</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>60@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>95@e@19980130-03-001@autofix</id><span>1018,1021</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>62@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>96@e@19980130-03-001@autofix</id><span>1144,1149</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>67@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>97@e@19980130-03-001@autofix</id><span>1365,1370</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>68@e@19980130-03-001@ksbackup</Entity></properties></entity><entity><id>98@e@19980130-03-001@autofix</id><span>1299,1301</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>6@e@19980130-03-001@preannotation</Entity></properties></entity><entity><id>99@e@19980130-03-001@autofix</id><span>1386,1390</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>71@e@19980130-03-001@ksbackup</Entity></properties></entity></annotations></data>
+<data>
+<info>
+  <savetime>11:03:51 05-08-2023</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>1@e@19980130-03-001@preannotation</id>
+		<span>1679,1681</span>
+		<type>Calendar-Interval</type>
+		<parentsType>Repeating-Interval</parentsType>
+		<properties>
+			<Type>Year</Type>
+			<Number></Number>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>2@e@19980130-03-001@preannotation</id>
+		<span>1679,1681</span>
+		<type>Last</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval>1@e@19980130-03-001@preannotation</Repeating-Interval>
+			<Nth>1</Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>3@e@19980130-03-001@preannotation</id>
+		<span>1558,1560</span>
+		<type>Copy</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>5@e@19980130-03-001@preannotation</id>
+		<span>1086,1088</span>
+		<type>Copy</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>6@e@19980130-03-001@preannotation</id>
+		<span>1299,1301</span>
+		<type>Copy</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>7@e@19980130-03-001@preannotation</id>
+		<span>777,779</span>
+		<type>Last</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval></Repeating-Interval>
+			<Nth></Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>26@e@19980130-03-001@ksbackup</id>
+		<span>39,41</span>
+		<type>Months</type>
+		<parentsType>Repeating-Interval</parentsType>
+		<properties>
+			<Type>January</Type>
+			<Number></Number>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>27@e@19980130-03-001@ksbackup</id>
+		<span>41,44</span>
+		<type>Day-Of-Month</type>
+		<parentsType>Interval</parentsType>
+		<properties>
+			<Value>28</Value>
+			<Super-Interval>26@e@19980130-03-001@ksbackup</Super-Interval>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>28@e@19980130-03-001@ksbackup</id>
+		<span>41,44</span>
+		<type>Last</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval>27@e@19980130-03-001@ksbackup</Repeating-Interval>
+			<Nth>1</Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>29@e@19980130-03-001@ksbackup</id>
+		<span>62,65</span>
+		<type>Days-Of-Month</type>
+		<parentsType>Repeating-Interval</parentsType>
+		<properties>
+			<Value>28</Value>
+			<Number></Number>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>31@e@19980130-03-001@ksbackup</id>
+		<span>65,66</span>
+		<type>Part-Of-Day</type>
+		<parentsType>Interval</parentsType>
+		<properties>
+			<Type>Evening</Type>
+			<Super-Interval>29@e@19980130-03-001@ksbackup</Super-Interval>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>32@e@19980130-03-001@ksbackup</id>
+		<span>65,66</span>
+		<type>Last</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval>31@e@19980130-03-001@ksbackup</Repeating-Interval>
+			<Nth>1</Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>33@e@19980130-03-001@ksbackup</id>
+		<span>131,133</span>
+		<type>Time-Anchor</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>34@e@19980130-03-001@ksbackup</id>
+		<span>162,164</span>
+		<type>Next</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>Link</Interval-Type>
+			<Interval>33@e@19980130-03-001@ksbackup</Interval>
+			<Period></Period>
+			<Repeating-Interval></Repeating-Interval>
+			<Nth></Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>35@e@19980130-03-001@ksbackup</id>
+		<span>75,77</span>
+		<type>Time-Anchor</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>36@e@19980130-03-001@ksbackup</id>
+		<span>303,307</span>
+		<type>Copy</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Interval-Type>Link</Interval-Type>
+			<Interval>35@e@19980130-03-001@ksbackup</Interval>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>37@e@19980130-03-001@ksbackup</id>
+		<span>433,436</span>
+		<type>Days-Of-Month</type>
+		<parentsType>Repeating-Interval</parentsType>
+		<properties>
+			<Value>28</Value>
+			<Number></Number>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>38@e@19980130-03-001@ksbackup</id>
+		<span>433,436</span>
+		<type>Last</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval>37@e@19980130-03-001@ksbackup</Repeating-Interval>
+			<Nth>1</Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>39@e@19980130-03-001@ksbackup</id>
+		<span>546,549</span>
+		<type>Days-Of-Month</type>
+		<parentsType>Repeating-Interval</parentsType>
+		<properties>
+			<Value>28</Value>
+			<Number></Number>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>40@e@19980130-03-001@ksbackup</id>
+		<span>546,549</span>
+		<type>Last</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval>39@e@19980130-03-001@ksbackup</Repeating-Interval>
+			<Nth>1</Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>41@e@19980130-03-001@ksbackup</id>
+		<span>494,496</span>
+		<type>Months</type>
+		<parentsType>Repeating-Interval</parentsType>
+		<properties>
+			<Type>January</Type>
+			<Number></Number>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>42@e@19980130-03-001@ksbackup</id>
+		<span>496,499</span>
+		<type>Day-Of-Month</type>
+		<parentsType>Interval</parentsType>
+		<properties>
+			<Value>28</Value>
+			<Super-Interval>41@e@19980130-03-001@ksbackup</Super-Interval>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>43@e@19980130-03-001@ksbackup</id>
+		<span>496,499</span>
+		<type>Last</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval>42@e@19980130-03-001@ksbackup</Repeating-Interval>
+			<Nth>1</Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>44@e@19980130-03-001@ksbackup</id>
+		<span>527,529</span>
+		<type>Time-Anchor</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>45@e@19980130-03-001@ksbackup</id>
+		<span>533,535</span>
+		<type>Copy</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Interval-Type>Link</Interval-Type>
+			<Interval>44@e@19980130-03-001@ksbackup</Interval>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>46@e@19980130-03-001@ksbackup</id>
+		<span>626,628</span>
+		<type>Time-Anchor</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>47@e@19980130-03-001@ksbackup</id>
+		<span>628,629</span>
+		<type>Next</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>Link</Interval-Type>
+			<Interval>46@e@19980130-03-001@ksbackup</Interval>
+			<Period></Period>
+			<Repeating-Interval></Repeating-Interval>
+			<Nth></Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>48@e@19980130-03-001@ksbackup</id>
+		<span>685,687</span>
+		<type>Time-Anchor</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>49@e@19980130-03-001@ksbackup</id>
+		<span>687,688</span>
+		<type>Next</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>Link</Interval-Type>
+			<Interval>48@e@19980130-03-001@ksbackup</Interval>
+			<Period></Period>
+			<Repeating-Interval></Repeating-Interval>
+			<Nth></Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>50@e@19980130-03-001@ksbackup</id>
+		<span>690,692</span>
+		<type>Time-Anchor</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>51@e@19980130-03-001@ksbackup</id>
+		<span>696,698</span>
+		<type>Copy</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Interval-Type>Link</Interval-Type>
+			<Interval>50@e@19980130-03-001@ksbackup</Interval>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>52@e@19980130-03-001@ksbackup</id>
+		<span>798,800</span>
+		<type>Calendar-Interval</type>
+		<parentsType>Repeating-Interval</parentsType>
+		<properties>
+			<Type>Month</Type>
+			<Number></Number>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>53@e@19980130-03-001@ksbackup</id>
+		<span>798,800</span>
+		<type>This</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval>52@e@19980130-03-001@ksbackup</Repeating-Interval>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>54@e@19980130-03-001@ksbackup</id>
+		<span>800,803</span>
+		<type>Day-Of-Month</type>
+		<parentsType>Interval</parentsType>
+		<properties>
+			<Value>27</Value>
+			<Super-Interval>53@e@19980130-03-001@ksbackup</Super-Interval>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>55@e@19980130-03-001@ksbackup</id>
+		<span>852,855</span>
+		<type>Days-Of-Month</type>
+		<parentsType>Repeating-Interval</parentsType>
+		<properties>
+			<Value>28</Value>
+			<Number></Number>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>56@e@19980130-03-001@ksbackup</id>
+		<span>852,855</span>
+		<type>Last</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval>55@e@19980130-03-001@ksbackup</Repeating-Interval>
+			<Nth>1</Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>57@e@19980130-03-001@ksbackup</id>
+		<span>855,857</span>
+		<type>Time-Anchor</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>58@e@19980130-03-001@ksbackup</id>
+		<span>862,864</span>
+		<type>After</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>Link</Interval-Type>
+			<Interval>57@e@19980130-03-001@ksbackup</Interval>
+			<Period></Period>
+			<Repeating-Interval></Repeating-Interval>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>59@e@19980130-03-001@ksbackup</id>
+		<span>888,890</span>
+		<type>Time-Anchor</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>60@e@19980130-03-001@ksbackup</id>
+		<span>890,891</span>
+		<type>After</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>Link</Interval-Type>
+			<Interval>59@e@19980130-03-001@ksbackup</Interval>
+			<Period></Period>
+			<Repeating-Interval></Repeating-Interval>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>61@e@19980130-03-001@ksbackup</id>
+		<span>1018,1021</span>
+		<type>Months</type>
+		<parentsType>Repeating-Interval</parentsType>
+		<properties>
+			<Type>April</Type>
+			<Number></Number>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>62@e@19980130-03-001@ksbackup</id>
+		<span>1018,1021</span>
+		<type>Next</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval>61@e@19980130-03-001@ksbackup</Repeating-Interval>
+			<Nth>1</Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>63@e@19980130-03-001@ksbackup</id>
+		<span>1144,1146</span>
+		<type>Months</type>
+		<parentsType>Repeating-Interval</parentsType>
+		<properties>
+			<Type>January</Type>
+			<Number></Number>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>64@e@19980130-03-001@ksbackup</id>
+		<span>1365,1367</span>
+		<type>Months</type>
+		<parentsType>Repeating-Interval</parentsType>
+		<properties>
+			<Type>January</Type>
+			<Number></Number>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>65@e@19980130-03-001@ksbackup</id>
+		<span>1146,1149</span>
+		<type>Day-Of-Month</type>
+		<parentsType>Interval</parentsType>
+		<properties>
+			<Value>28</Value>
+			<Super-Interval>63@e@19980130-03-001@ksbackup</Super-Interval>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>66@e@19980130-03-001@ksbackup</id>
+		<span>1367,1370</span>
+		<type>Day-Of-Month</type>
+		<parentsType>Interval</parentsType>
+		<properties>
+			<Value>28</Value>
+			<Super-Interval>64@e@19980130-03-001@ksbackup</Super-Interval>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>67@e@19980130-03-001@ksbackup</id>
+		<span>1146,1149</span>
+		<type>Last</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval>65@e@19980130-03-001@ksbackup</Repeating-Interval>
+			<Nth>1</Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>68@e@19980130-03-001@ksbackup</id>
+		<span>1367,1370</span>
+		<type>Last</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval>66@e@19980130-03-001@ksbackup</Repeating-Interval>
+			<Nth>1</Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>69@e@19980130-03-001@ksbackup</id>
+		<span>1386,1389</span>
+		<type>Days-Of-Month</type>
+		<parentsType>Repeating-Interval</parentsType>
+		<properties>
+			<Value>28</Value>
+			<Number></Number>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>70@e@19980130-03-001@ksbackup</id>
+		<span>1389,1390</span>
+		<type>Part-Of-Day</type>
+		<parentsType>Interval</parentsType>
+		<properties>
+			<Type>Evening</Type>
+			<Super-Interval>69@e@19980130-03-001@ksbackup</Super-Interval>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>71@e@19980130-03-001@ksbackup</id>
+		<span>1389,1390</span>
+		<type>Last</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval>70@e@19980130-03-001@ksbackup</Repeating-Interval>
+			<Nth>1</Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>72@e@19980130-03-001@ksbackup</id>
+		<span>1176,1179</span>
+		<type>Days-Of-Month</type>
+		<parentsType>Repeating-Interval</parentsType>
+		<properties>
+			<Value>28</Value>
+			<Number></Number>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>73@e@19980130-03-001@ksbackup</id>
+		<span>1176,1179</span>
+		<type>Last</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval>72@e@19980130-03-001@ksbackup</Repeating-Interval>
+			<Nth>1</Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>74@e@19980130-03-001@ksbackup</id>
+		<span>1452,1457</span>
+		<type>Time-Anchor</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>75@e@19980130-03-001@ksbackup</id>
+		<span>1457,1458</span>
+		<type>Copy</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Interval-Type>Link</Interval-Type>
+			<Interval>74@e@19980130-03-001@ksbackup</Interval>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>76@e@19980130-03-001@ksbackup</id>
+		<span>1681,1684</span>
+		<type>Month-Of-Year</type>
+		<parentsType>Interval</parentsType>
+		<properties>
+			<Type>November</Type>
+			<Super-Interval>2@e@19980130-03-001@preannotation</Super-Interval>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>77@e@19980130-03-001@ksbackup</id>
+		<span>1684,1687</span>
+		<type>Day-Of-Month</type>
+		<parentsType>Interval</parentsType>
+		<properties>
+			<Value>20</Value>
+			<Super-Interval>76@e@19980130-03-001@ksbackup</Super-Interval>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>78@e@19980130-03-001@autofix</id>
+		<span>36,44</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>28@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>79@e@19980130-03-001@autofix</id>
+		<span>62,66</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>32@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>80@e@19980130-03-001@autofix</id>
+		<span>162,164</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>34@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>81@e@19980130-03-001@autofix</id>
+		<span>303,307</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>36@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>82@e@19980130-03-001@autofix</id>
+		<span>433,436</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>38@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>83@e@19980130-03-001@autofix</id>
+		<span>1558,1560</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>3@e@19980130-03-001@preannotation</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>84@e@19980130-03-001@autofix</id>
+		<span>546,549</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>40@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>85@e@19980130-03-001@autofix</id>
+		<span>492,499</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>43@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>88@e@19980130-03-001@autofix</id>
+		<span>684,688</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>49@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>91@e@19980130-03-001@autofix</id>
+		<span>852,855</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>56@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>93@e@19980130-03-001@autofix</id>
+		<span>1086,1088</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>5@e@19980130-03-001@preannotation</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>94@e@19980130-03-001@autofix</id>
+		<span>881,891</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>60@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>95@e@19980130-03-001@autofix</id>
+		<span>1018,1021</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>62@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>96@e@19980130-03-001@autofix</id>
+		<span>1144,1149</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>67@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>97@e@19980130-03-001@autofix</id>
+		<span>1365,1370</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>68@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>98@e@19980130-03-001@autofix</id>
+		<span>1299,1301</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>6@e@19980130-03-001@preannotation</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>99@e@19980130-03-001@autofix</id>
+		<span>1386,1390</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>71@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>100@e@19980130-03-001@autofix</id>
+		<span>1176,1179</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>73@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>101@e@19980130-03-001@autofix</id>
+		<span>1451,1458</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>75@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>102@e@19980130-03-001@autofix</id>
+		<span>1679,1687</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>77@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>103@e@19980130-03-001@autofix</id>
+		<span>777,779</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>7@e@19980130-03-001@preannotation</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>104@e@19980130-03-001@ksbackup</id>
+		<span>500,535</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>45@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>105@e@19980130-03-001@ksbackup</id>
+		<span>626,629</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>47@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>106@e@19980130-03-001@ksbackup</id>
+		<span>696,698</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>51@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>107@e@19980130-03-001@ksbackup</id>
+		<span>798,803</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>54@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>108@e@19980130-03-001@ksbackup</id>
+		<span>852,864</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>58@e@19980130-03-001@ksbackup</Entity>
+		</properties>
+	</entity>
+
+</annotations>
+
+</data>

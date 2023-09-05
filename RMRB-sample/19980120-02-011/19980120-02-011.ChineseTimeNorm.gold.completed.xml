@@ -1,4 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<data><info><savetime>21:00:22 30-03-2023</savetime><progress>completed</progress></info><schema path="./" protocol="file">temporal.schema.xml</schema>
 
-<annotations><entity><id>10@e@19980120-02-011@ksbackup</id><span>111,113</span><type>Calendar-Interval</type><parentsType>Repeating-Interval</parentsType><properties><Type>Year</Type><Number /><Modifier>9@e@19980120-02-011@ksbackup</Modifier></properties></entity><entity><id>11@e@19980120-02-011@autofix</id><span>111,114</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>4@e@19980120-02-011@preannotation</Entity></properties></entity><entity><id>12@e@19980120-02-011@autofix</id><span>38,42</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>6@e@19980120-02-011@ksbackup</Entity></properties></entity><entity><id>13@e@19980120-02-011@autofix</id><span>61,69</span><type>Time-Phrase</type><parentsType>Other</parentsType><properties><Entity>8@e@19980120-02-011@ksbackup</Entity></properties></entity><entity><id>1@e@19980120-02-011@preannotation</id><span>38,40</span><type>Calendar-Interval</type><parentsType>Repeating-Interval</parentsType><properties><Type>Year</Type><Number /><Modifier /></properties></entity><entity><id>2@e@19980120-02-011@preannotation</id><span>38,40</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval>1@e@19980120-02-011@preannotation</Repeating-Interval><Nth>1</Nth></properties></entity><entity><id>4@e@19980120-02-011@preannotation</id><span>111,113</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>DocTime</Interval-Type><Interval /><Period /><Repeating-Interval>10@e@19980120-02-011@ksbackup</Repeating-Interval><Nth>1</Nth></properties></entity><entity><id>6@e@19980120-02-011@ksbackup</id><span>40,42</span><type>Between</type><parentsType>Operator</parentsType><properties><Start-Interval-Type>Link</Start-Interval-Type><Start-Interval>2@e@19980120-02-011@preannotation</Start-Interval><Start-Included>Included</Start-Included><End-Interval-Type>DocTime</End-Interval-Type><End-Interval /><End-Included>Included</End-Included></properties></entity><entity><id>7@e@19980120-02-011@ksbackup</id><span>62,68</span><type>Period</type><parentsType>Duration</parentsType><properties><Type>Unknown</Type><Number /><Modifier /><Is-Repeated>False</Is-Repeated></properties></entity><entity><id>8@e@19980120-02-011@ksbackup</id><span>68,69</span><type>Last</type><parentsType>Operator</parentsType><properties><Semantics>Interval-Not-Included</Semantics><Interval-Type>Link</Interval-Type><Interval /><Period>7@e@19980120-02-011@ksbackup</Period><Repeating-Interval /><Nth /></properties></entity><entity><id>9@e@19980120-02-011@ksbackup</id><span>113,114</span><type>Modifier</type><parentsType>Other</parentsType><properties><Type>Start</Type></properties></entity></annotations></data>
+<data>
+<info>
+  <savetime>10:42:59 05-08-2023</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>1@e@19980120-02-011@preannotation</id>
+		<span>38,40</span>
+		<type>Calendar-Interval</type>
+		<parentsType>Repeating-Interval</parentsType>
+		<properties>
+			<Type>Year</Type>
+			<Number></Number>
+			<Modifier></Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>2@e@19980120-02-011@preannotation</id>
+		<span>38,40</span>
+		<type>Last</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval>1@e@19980120-02-011@preannotation</Repeating-Interval>
+			<Nth>1</Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>4@e@19980120-02-011@preannotation</id>
+		<span>111,113</span>
+		<type>Last</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period></Period>
+			<Repeating-Interval>10@e@19980120-02-011@ksbackup</Repeating-Interval>
+			<Nth>1</Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>6@e@19980120-02-011@ksbackup</id>
+		<span>40,42</span>
+		<type>Between</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Start-Interval-Type>Link</Start-Interval-Type>
+			<Start-Interval>2@e@19980120-02-011@preannotation</Start-Interval>
+			<Start-Included>Included</Start-Included>
+			<End-Interval-Type>DocTime</End-Interval-Type>
+			<End-Interval></End-Interval>
+			<End-Included>Included</End-Included>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>7@e@19980120-02-011@ksbackup</id>
+		<span>62,68</span>
+		<type>Period</type>
+		<parentsType>Duration</parentsType>
+		<properties>
+			<Type>Unknown</Type>
+			<Number></Number>
+			<Modifier></Modifier>
+			<Is-Repeated>False</Is-Repeated>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>8@e@19980120-02-011@ksbackup</id>
+		<span>68,69</span>
+		<type>Last</type>
+		<parentsType>Operator</parentsType>
+		<properties>
+			<Semantics>Interval-Not-Included</Semantics>
+			<Interval-Type>DocTime</Interval-Type>
+			<Interval></Interval>
+			<Period>7@e@19980120-02-011@ksbackup</Period>
+			<Repeating-Interval></Repeating-Interval>
+			<Nth></Nth>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>9@e@19980120-02-011@ksbackup</id>
+		<span>113,114</span>
+		<type>Modifier</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Type>Start</Type>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>10@e@19980120-02-011@ksbackup</id>
+		<span>111,113</span>
+		<type>Calendar-Interval</type>
+		<parentsType>Repeating-Interval</parentsType>
+		<properties>
+			<Type>Year</Type>
+			<Number></Number>
+			<Modifier>9@e@19980120-02-011@ksbackup</Modifier>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>11@e@19980120-02-011@autofix</id>
+		<span>111,114</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>4@e@19980120-02-011@preannotation</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>12@e@19980120-02-011@autofix</id>
+		<span>38,42</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>6@e@19980120-02-011@ksbackup</Entity>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>13@e@19980120-02-011@autofix</id>
+		<span>61,69</span>
+		<type>Time-Phrase</type>
+		<parentsType>Other</parentsType>
+		<properties>
+			<Entity>8@e@19980120-02-011@ksbackup</Entity>
+		</properties>
+	</entity>
+
+</annotations>
+
+</data>
